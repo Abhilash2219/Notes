@@ -1,13 +1,20 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import NotesSection from "./components/NotesSection";
-import "../src/App.css";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './components/Home';
+import TopicPage from './components/TopicPage';
+
 function App() {
   return (
     <Router>
-      <Routes>
-        <Route path="/notes/:companyCode" element={<NotesSection />} />
-        {/* Add other routes as needed */}
-      </Routes>
+      <div className="App">
+        <Routes>
+          {/* Home Page Route */}
+          <Route path="/" element={<Home />} />
+          
+          {/* Topic Page Route */}
+          <Route path="/topic/:topicId" element={<TopicPage />} />
+        </Routes>
+      </div>
     </Router>
   );
 }

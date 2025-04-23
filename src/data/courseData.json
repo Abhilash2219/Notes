@@ -1,0 +1,92 @@
+{
+  "java": {
+    "title": "Java",
+    "topics": {
+      "OOP Concepts": {
+        "items": [
+          { "label": "Inheritance", "file": "content/java/oop/inheritance.md" },
+          { "label": "Polymorphism", "file": "content/java/oop/polymorphism.md" },
+          { "label": "Abstraction", "file": "content/java/oop/abstraction.md" }
+        ]
+      },
+      "Collections Framework": {
+        "items": [
+          { "label": "List", "file": "content/java/collections/list.md" },
+          { "label": "Map", "file": "content/java/collections/map.md" }
+        ]
+      }
+    }
+  },
+  "python": {
+    "title": "Python",
+    "topics": {
+      "Language Fundamentals": {
+        "items": [
+          { "label": "Introduction to Python", "file": "content/python/language-fundamentals/intro-to-python.md" },
+          { "label": "Variables and Data Types", "file": "content/python/language-fundamentals/variables-and-data-types.md" },
+          { "label": "Control Flow", "file": "content/python/language-fundamentals/control-flow.md" },
+          { "label": "Functions and Modules", "file": "content/python/language-fundamentals/functions-and-modules.md" },
+          { "label": "Error Handling", "file": "content/python/language-fundamentals/error-handling.md" },
+          { "label": "File I/O", "file": "content/python/language-fundamentals/file-io.md" }
+        ]
+      },
+      "Advanced Topics": {
+        "items": [
+          { "label": "Decorators", "file": "content/python/advanced/decorators.md" },
+          { "label": "Generators", "file": "content/python/advanced/generators.md" }
+        ]
+      }
+    }
+  },
+  "html": {
+    "title": "HTML",
+    "topics": {
+      "Basics": {
+        "items": [
+          { "label": "Tags", "file": "content/html/basics/tags.md" },
+          { "label": "Attributes", "file": "content/html/basics/attributes.md" }
+        ]
+      },
+      "Forms": {
+        "items": [
+          { "label": "Input Types", "file": "content/html/forms/input-types.md" },
+          { "label": "Form Validation", "file": "content/html/forms/form-validation.md" }
+        ]
+      }
+    }
+  },
+  "css": {
+    "title": "CSS",
+    "topics": {
+      "Selectors": {
+        "items": [
+          { "label": "Class Selector", "file": "content/css/selectors/class-selector.md" },
+          { "label": "ID Selector", "file": "content/css/selectors/id-selector.md" }
+        ]
+      },
+      "Flexbox": {
+        "items": [
+          { "label": "Flex Container", "file": "content/css/flexbox/flex-container.md" },
+          { "label": "Flex Items", "file": "content/css/flexbox/flex-items.md" }
+        ]
+      }
+    }
+  },
+  "javascript": {
+    "title": "JavaScript",
+    "topics": {
+      "Basics": {
+        "items": [
+          { "label": "Variables", "file": "content/javascript/basics/variables.md" },
+          { "label": "Functions", "file": "content/javascript/basics/functions.md" }
+        ]
+      },
+      "DOM Manipulation": {
+        "items": [
+          { "label": "getElementById", "file": "content/javascript/dom/getelementbyid.md" },
+          { "label": "addEventListener", "file": "content/javascript/dom/addeventlistener.md" }
+        ]
+      }
+    }
+  }
+}
