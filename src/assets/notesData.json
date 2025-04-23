@@ -1,0 +1,103 @@
+{
+  "GSK2025A": {
+    "Language Fundamentals": {
+      "title": "Language Fundamentals",
+      "items": [
+        { "label": "Introduction to Python", "file": "language-fundamentals/intro-to-python.md" },
+        { "label": "Variables and Data Types", "file": "language-fundamentals/variables-and-data-types.md" },
+        { "label": "Control Flow", "file": "language-fundamentals/control-flow.md" },
+        { "label": "Functions and Modules", "file": "language-fundamentals/functions-and-modules.md" },
+        { "label": "Error Handling", "file": "language-fundamentals/error-handling.md" },
+        { "label": "File I/O", "file": "language-fundamentals/file-io.md" }
+      ]
+    },
+    "Object-Oriented Programming": {
+      "title": "Object-Oriented Programming",
+      "items": [
+        { "label": "Introduction to OOP", "file": "oop/intro-to-oop.md" },
+        { "label": "Classes and Objects", "file": "oop/classes-and-objects.md" },
+        { "label": "Inheritance", "file": "oop/inheritance.md" },
+        { "label": "Polymorphism", "file": "oop/polymorphism.md" },
+        { "label": "Encapsulation", "file": "oop/encapsulation.md" }
+      ]
+    },
+    "Web Development Basics": {
+      "title": "Web Development Basics",
+      "items": [
+        { "label": "HTML Introduction", "file": "web-dev-basics/html-intro.md" },
+        { "label": "CSS Basics", "file": "web-dev-basics/css-basics.md" },
+        { "label": "JavaScript Fundamentals", "file": "web-dev-basics/javascript-fundamentals.md" },
+        { "label": "Building a Simple Website", "file": "web-dev-basics/simple-website.md" }
+      ]
+    },
+    "Database Management": {
+      "title": "Database Management",
+      "items": [
+        { "label": "Database Introduction", "file": "db-management/db-introduction.md" },
+        { "label": "SQL Basics", "file": "db-management/sql-basics.md" },
+        { "label": "CRUD Operations", "file": "db-management/crud-operations.md" },
+        { "label": "Joins in SQL", "file": "db-management/joins-in-sql.md" },
+        { "label": "Database Design", "file": "db-management/database-design.md" }
+      ]
+    }
+  }, 
+
+    "TCS2025A": {
+      "Core Java": {
+        "title": "Core Java",
+        "items": [
+          { "label": "Java Basics", "file": "core-java/java-basics.md" },
+          { "label": "Variables and Data Types", "file": "core-java/variables-and-data-types.md" },
+          { "label": "Control Statements", "file": "core-java/control-statements.md" },
+          { "label": "Arrays and Strings", "file": "core-java/arrays-strings.md" }
+        ]
+      },
+      "Advanced Java": {
+        "title": "Advanced Java",
+        "items": [
+          { "label": "Multithreading", "file": "advanced-java/multithreading.md" },
+          { "label": "Collections Framework", "file": "advanced-java/collections-framework.md" },
+          { "label": "Exception Handling", "file": "advanced-java/exception-handling.md" },
+          { "label": "Networking in Java", "file": "advanced-java/networking.md" }
+        ]
+      },
+      "Spring Framework": {
+        "title": "Spring Framework",
+        "items": [
+          { "label": "Introduction to Spring", "file": "spring-framework/intro-to-spring.md" },
+          { "label": "Spring Boot Basics", "file": "spring-framework/spring-boot-basics.md" },
+          { "label": "Spring MVC", "file": "spring-framework/spring-mvc.md" },
+          { "label": "Spring Data JPA", "file": "spring-framework/spring-data-jpa.md" }
+        ]
+      }
+    },
+    "INFY2025B": {
+      "Frontend Development": {
+        "title": "Frontend Development",
+        "items": [
+          { "label": "HTML5 and Semantic Tags", "file": "frontend/html5-semantic.md" },
+          { "label": "CSS Flexbox and Grid", "file": "frontend/css-flexbox-grid.md" },
+          { "label": "Responsive Web Design", "file": "frontend/responsive-web.md" },
+          { "label": "JavaScript DOM Manipulation", "file": "frontend/js-dom.md" }
+        ]
+      },
+      "Backend Development": {
+        "title": "Backend Development",
+        "items": [
+          { "label": "Node.js Fundamentals", "file": "backend/nodejs-fundamentals.md" },
+          { "label": "Express.js Basics", "file": "backend/expressjs-basics.md" },
+          { "label": "REST API Development", "file": "backend/rest-api.md" },
+          { "label": "Authentication and Authorization", "file": "backend/authentication.md" }
+        ]
+      },
+      "Database Integration": {
+        "title": "Database Integration",
+        "items": [
+          { "label": "MongoDB Basics", "file": "database/mongodb-basics.md" },
+          { "label": "Mongoose ORM", "file": "database/mongoose-orm.md" },
+          { "label": "Connecting Node.js with MongoDB", "file": "database/node-mongodb-connection.md" }
+        ]
+      }
+    }
+  }
+
